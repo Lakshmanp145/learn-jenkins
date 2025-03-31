@@ -4,14 +4,14 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                  sh "This is build"
+                  sh "This is Build"
                 }
             }
         }
         stage('Test') {
             steps {
                 script {
-                  sh "This Build"
+                  sh "This Test"
                 }
             }
         }
