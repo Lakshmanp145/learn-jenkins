@@ -23,5 +23,15 @@ pipeline {
             }
         }
     }
+    post { 
+        always { 
+            echo 'This session runs always'
+        }
+        success { 
+            echo 'This session runs when pipeline success'
+        }
+        failure { 
+            echo 'This session runs when pipeline failure'
+        }
 }
 
