@@ -33,5 +33,6 @@ pipeline {
         failure { 
             echo 'This session runs when pipeline failure'
         }
+    }
 }
 
