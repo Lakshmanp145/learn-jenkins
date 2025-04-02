@@ -28,6 +28,7 @@ pipeline {
     post { 
         always { 
             echo 'This session runs always'
+            deleteDir()
         }
         success { 
             echo 'This session runs when pipeline success'
