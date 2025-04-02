@@ -10,7 +10,7 @@ pipeline {
             steps {
                 
                   sh 'echo "This is Build"'
-                  sh 'sleep'
+                  sh 'sleep 10'
 
             }
         }
