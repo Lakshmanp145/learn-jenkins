@@ -7,7 +7,7 @@ pipeline {
         disableConcurrentBuilds()
         //retry(1)
     }
-    parameters{
+    parameters {
         string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
         text(name: 'BIOGRAPHY', defaultValue: '', description: 'Enter some information about the person')
         booleanParam(name: 'TOGGLE', defaultValue: true, description: 'Toggle this value')
