@@ -48,7 +48,7 @@ pipeline {
         }
     }
     post { 
-        always { 
+        always{ 
             echo 'This session runs always'
             deleteDir()
         }
